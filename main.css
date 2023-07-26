@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	display: grid;
+	place-items: center;
+	min-height: 100%;
+	background-color: #052b38;
+	font-family: sans-serif;
+}
+.card{
+	width: 600px;
+	height: 350px;
+	box-shadow: 10px 10px 15px black, -10px -10px 15px black;
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	background-color: #fff;
+}
+.name{
+	font-size: 3rem;
+
+}
+#counter{
+	font-size: 5rem;
+	margin-bottom:1rem;
+	margin-top: 0.7rem;
+}
+.prevBtn, .nextBtn{
+	font-size: 1.3rem;
+	padding: 0.7rem 1.5rem;
+	margin: 0 2rem;
+	cursor: pointer;
+}
